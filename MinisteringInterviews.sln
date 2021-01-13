@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinisteringInterviews.Domai
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.DomainDrivenDesign", "Common.DomainDrivenDesign\Common.DomainDrivenDesign.csproj", "{DB928265-2D2A-4708-8BF5-1727B7ADF85E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinisteringInterviews.Data", "MinisteringInterviews.Data\MinisteringInterviews.Data.csproj", "{BFD84B24-76D2-4864-AC6E-0DDDDAEE5303}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinisteringInterviews.Data", "MinisteringInterviews.Data\MinisteringInterviews.Data.csproj", "{BFD84B24-76D2-4864-AC6E-0DDDDAEE5303}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinisteringInterviews.Domain.Services", "MinisteringInterviews.Domain.Services\MinisteringInterviews.Domain.Services.csproj", "{96BDDB59-F833-42B7-8016-5F7EF581B118}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{BFD84B24-76D2-4864-AC6E-0DDDDAEE5303}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFD84B24-76D2-4864-AC6E-0DDDDAEE5303}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFD84B24-76D2-4864-AC6E-0DDDDAEE5303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96BDDB59-F833-42B7-8016-5F7EF581B118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96BDDB59-F833-42B7-8016-5F7EF581B118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96BDDB59-F833-42B7-8016-5F7EF581B118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96BDDB59-F833-42B7-8016-5F7EF581B118}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

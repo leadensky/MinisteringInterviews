@@ -2,17 +2,17 @@
 
 namespace MinisteringInterviews.Domain
 {
-    public class Person : DomainObject
+    public class Member : DomainObject
     {
-        public Person()
+        public Member()
         {
-            Id = new Guid();
+            Id = Guid.NewGuid();
         }
 
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string FullName => $"{FirstName} {LastName}";
-        public Email Mobile { get; set; }
-        public Email Email { get; set; }
+        //public Email Mobile { get; set; }
+        //public Email Email { get; set; }
     }
 }

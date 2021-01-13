@@ -4,7 +4,7 @@ namespace MinisteringInterviews.Data
 {
     public static class PersonExtensions
     {
-        public static string ChurchName (this Person person)
+        public static string ChurchName (this Member person)
         {
             return $"Brother {person.LastName}";
         }

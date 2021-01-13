@@ -9,8 +9,8 @@ namespace MinisteringInterviews.Domain
         {
             Id = new System.Guid();
         }
-        public Person Supervisor { get; set; }
-        public Person Companion1 { get; set; }
-        public Person Companion2 { get; set; }
+        public Member Supervisor { get; set; }
+        public Member Companion1 { get; set; }
+        public Member Companion2 { get; set; }
     }
 }
